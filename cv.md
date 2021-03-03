@@ -45,7 +45,7 @@
         <dd>I passed courses at "Level Up" as Junior Front-End Developer during 3 monthes.</dd>
       <dt><h3>Education.</h3></dt>
         <dd>I have higher education as economist-marketolog in tourism sphere.<br>
-            BSEU, 2011-2016
+            <i>BSEU, 2011-2016</i>
         </dd>
        <dt><h3>English language.</h3></dt>
         <dd>B2</dd>
