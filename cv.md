@@ -12,7 +12,7 @@
     <dl>
     <bold>Information about me:</bold>
       <dt><h3>Full name.</h3></dt>
-        <dd>Nastassia Kladava</dd>
+        <dd>Nastassia Kladova</dd>
       <dt><h3>Contacts.</h3></dt>
         <dd>tel.: +7 999 000 00 00 <br>
             <a href="nstsologub@gmail.com" target="_blank">my e-mail</a>
