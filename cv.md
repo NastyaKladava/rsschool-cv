@@ -25,7 +25,22 @@
       <dt><h3>Skills.</h3></dt>
         <dd>Java Script, React</dd>
       <dt><h3>Code examples.</h3></dt>
-        
+        <dd>``` <br>
+            function isEven(n) {
+                if (n === 0) {
+                    return 'true';
+                } else if (n === 1 || n === -1) {
+                    return 'false';
+                } else if (n < 0){
+                    return checkNumber(n);
+                } else {
+                    return isEven(n - 2);
+                }
+                function checkNumber(n) {
+                return isEven(n + 2);
+                }
+            } <br>
+            ```</dd>
       <dt><h3>Experience.</h3></dt>
         <dd>I passed courses at "Level Up" as Junior Front-End Developer during 3 monthes.</dd>
       <dt><h3>Education.</h3></dt>
