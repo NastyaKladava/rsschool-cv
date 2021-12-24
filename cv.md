@@ -32,6 +32,27 @@ Now I have much more time than two years ago and great desire to become a fronte
 ### Code examples:
 ******************
 
+```
+function searchItem() {
+  const input = document.getElementById('inputSearch'),
+        filter = input.value.toUpperCase(),
+        list = document.getElementById('listSearch'),
+        item =  list.getElementsByTagName('li');
+
+  for (let i = 0; i < item.length; i++) {
+    const a = item[i].getElementsByTagName('a')[0];
+
+    if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+      item[i].style.display = 'block';
+    } else {
+      item[i].style.display = 'none';
+    }
+  }
+
+  (filter.length === 0) ? list.style.display = 'none': list.style.display = 'block';
+  
+}
+```
 
 
 ### Experience:
