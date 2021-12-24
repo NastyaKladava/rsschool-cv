@@ -1,8 +1,8 @@
 # Nastya Kladova
-
+****************
 
 ### Contact information:
-
+************************
 
 * __Phone:__ +7 904 6354727
 * __Email:__ nstsologub@gmail.com
@@ -11,7 +11,7 @@
 
 
 ### Briefly about myself:
-
+*************************
 
 My name is Nastya. I am 27 years old and I've been working for the last 9 years in the restaurant business that gave me the skills to communicate with a huge number people from different spheres, experience in management, flexible mind, multitasking and skill to solve conflict situations quickly.\
 Two years ago I've began to be interested in it-sphere and I've started learning Frontend Development. I'm really interested in Web Development because occupation gives a lot of opportunities, especially in careeer advancement, self-education and broadening of my outlook.\
@@ -19,7 +19,7 @@ Now I have much more time than two years ago and great desire to become a fronte
 
 
 ### Skills:
-
+***********
 
 * HTML5
 * CSS3
@@ -30,12 +30,12 @@ Now I have much more time than two years ago and great desire to become a fronte
 
 
 ### Code examples:
-
+******************
 
 
 
 ### Experience:
-
+***************
 
 + *restaurant "The Black Door"/ Minsk/ waitress/ 2012-2015*
 + *cafe "Milano"/ Minsk/ waitress/ 2015-2017*  
@@ -45,7 +45,7 @@ Now I have much more time than two years ago and great desire to become a fronte
 
 
 ### Education and Courses:
-
+**************************
 
 - **BSEU (Minsk)**
 Higher School of Tourism Faculty
@@ -62,7 +62,7 @@ _September 2021 - December 2021_
 
 
 ### Languages:
-
+**************
 
 * English - Intermediate
 * Spanish - A1
