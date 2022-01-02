@@ -151,6 +151,31 @@
                     </ul>
                 </div>
             </section>
+            <section class="code">
+                <h2 class="title">Code examples</h2>
+                <pre class="code-example">
+                    <code>
+                        function searchItem() {
+                            const input = document.getElementById(&rsquo;inputSearch&rsquo;),
+                            filter = input.value.toUpperCase(),
+                            list = document.getElementById(&rsquo;listSearch&rsquo;),
+                            item = list.getElementsByTagName(&rsquo;li&rsquo;);
+                            
+                            for (let i = 0; i &lt; item.length; i++) {
+                            const a = item[i].getElementsByTagName(&rsquo;a&rsquo;)[0];
+                            
+                            if&nbsp;(a.innerHTML.toUpperCase().indexOf(filter) &gt; &minus;1) {
+                            item[i].style.display = &rsquo;block&rsquo;;
+                            } else {
+                            item[i].style.display = &rsquo;none&rsquo;;
+                            }
+                            }
+                            
+                            (filter.length === 0) ? list.style.display = &rsquo;none&rsquo;: list.style.display = &rsquo;block&rsquo;;
+                        }
+                    </code>
+                </pre>
+            </section>
         </main>
     </div>
 </body>
