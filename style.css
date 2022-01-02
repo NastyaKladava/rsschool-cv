@@ -1,7 +1,36 @@
+/* Fonts */
+
+@font-face {
+    font-family: "Lato";
+    src: url("fonts/lato-regular-webfont.woff2") format("woff2"),
+      url("fonts/lato-regular-webfont.woff") format("woff");
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Lato";
+    src: url("fonts/lato-bold-webfont.woff2") format("woff2"),
+      url("fonts/lato-bold-webfont.woff") format("woff");
+    font-display: swap;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Lato";
+    src: url("fonts/lato-black-webfont.woff2") format("woff2"),
+      url("fonts/lato-black-webfont.woff") format("woff");
+    font-display: swap;
+    font-weight: 900;
+    font-style: normal;
+  }
+
+  
 /* Basic and common styles */
 
 html {
-    -webkit-box-sizing: border-box;
     box-sizing: border-box;
   }
   
@@ -9,7 +38,6 @@ html {
   *,
   *::before,
   *::after {
-    -webkit-box-sizing: inherit;
     box-sizing: inherit;
   }
   
@@ -60,4 +88,16 @@ html {
     padding: 0 15px;
     margin: 0 auto;
   }
+
+/* Header */
+
+.header {
+    background-color: rgba(255, 217, 217, 1);
+}
+
+/* About */
+
+.hero {
+    background-color: rgba(255, 217, 217, 1);
+}
   
