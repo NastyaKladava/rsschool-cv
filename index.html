@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>CV</title>
 </head>
 <body>
@@ -41,7 +42,7 @@
             <section class="hero">
                 <div class="container">
                     <div class="hero__image">
-                        <img src="image.JPG" alt="Nastya Kladava">
+                        <img src="img/image.JPG" alt="Nastya Kladava">
                     </div>
                     <h1 class="main-title">Nastya Kladova</h1>
                 </div>
@@ -152,29 +153,31 @@
                 </div>
             </section>
             <section class="code">
-                <h2 class="title">Code examples</h2>
-                <pre class="code-example">
-                    <code>
-                        function searchItem() {
-                            const input = document.getElementById(&rsquo;inputSearch&rsquo;),
-                            filter = input.value.toUpperCase(),
-                            list = document.getElementById(&rsquo;listSearch&rsquo;),
-                            item = list.getElementsByTagName(&rsquo;li&rsquo;);
-                            
-                            for (let i = 0; i &lt; item.length; i++) {
-                            const a = item[i].getElementsByTagName(&rsquo;a&rsquo;)[0];
-                            
-                            if&nbsp;(a.innerHTML.toUpperCase().indexOf(filter) &gt; &minus;1) {
-                            item[i].style.display = &rsquo;block&rsquo;;
-                            } else {
-                            item[i].style.display = &rsquo;none&rsquo;;
+                <div class="container">
+                    <h2 class="title">Code examples</h2>
+                    <pre class="code-example">
+                        <code>
+                            function searchItem() {
+                                const input = document.getElementById(&rsquo;inputSearch&rsquo;),
+                                filter = input.value.toUpperCase(),
+                                list = document.getElementById(&rsquo;listSearch&rsquo;),
+                                item = list.getElementsByTagName(&rsquo;li&rsquo;);
+                                
+                                for (let i = 0; i &lt; item.length; i++) {
+                                const a = item[i].getElementsByTagName(&rsquo;a&rsquo;)[0];
+                                
+                                if&nbsp;(a.innerHTML.toUpperCase().indexOf(filter) &gt; &minus;1) {
+                                item[i].style.display = &rsquo;block&rsquo;;
+                                } else {
+                                item[i].style.display = &rsquo;none&rsquo;;
+                                }
+                                }
+                                
+                                (filter.length === 0) ? list.style.display = &rsquo;none&rsquo;: list.style.display = &rsquo;block&rsquo;;
                             }
-                            }
-                            
-                            (filter.length === 0) ? list.style.display = &rsquo;none&rsquo;: list.style.display = &rsquo;block&rsquo;;
-                        }
-                    </code>
-                </pre>
+                        </code>
+                    </pre>
+                </div>
             </section>
             <section class="languages">
                 <div class="container">

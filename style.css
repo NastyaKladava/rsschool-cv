@@ -1,3 +1,63 @@
-body {
-    color: blue;
-}
+/* Basic and common styles */
+
+html {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+
+  *,
+  *::before,
+  *::after {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+  }
+  
+  body {
+    font-family: "Lato", sans-serif;
+    color: var(--gray-800);
+    margin: 0;
+    overflow-x: hidden;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 0;
+    padding: 0;
+  }
+  
+  p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul,
+  ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+.site-container {
+    overflow: hidden; /*чтобы обрезать контейнер по всем сторонам*/
+  }
+  
+  .container {
+    max-width: 1260px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  
