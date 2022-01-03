@@ -209,13 +209,13 @@ section {
     margin-bottom: 8px;
 }
 
-.skills__list {
+.skills__item {
     border-radius: 15px;
     border: 2px solid rgba(100, 149, 237, 0.5);
     padding: 30px;
 }
 
-.hard-skills__list {
+.skills__item:nth-child(1) {
     grid-column: 1/2;
     grid-row: 1/2;
     justify-self: end;
@@ -261,7 +261,7 @@ section {
     background-image: url(img/sass.svg);
 }
 
-.soft-skills__list {
+.skills__item:nth-child(2) {
     grid-column: 2/3;
     grid-row: 2/3;
     justify-self: start;
