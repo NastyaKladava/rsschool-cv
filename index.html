@@ -182,30 +182,41 @@
                 </div>
             </section>
             <section class="code">
-                <div class="container">
-                    <h2 class="title">Code examples</h2>
-                    <pre class="code-example">
-                        <code>
-                            function searchItem() {
-                                const input = document.getElementById(&rsquo;inputSearch&rsquo;),
-                                filter = input.value.toUpperCase(),
-                                list = document.getElementById(&rsquo;listSearch&rsquo;),
-                                item = list.getElementsByTagName(&rsquo;li&rsquo;);
-                                
-                                for (let i = 0; i &lt; item.length; i++) {
-                                const a = item[i].getElementsByTagName(&rsquo;a&rsquo;)[0];
-                                
-                                if&nbsp;(a.innerHTML.toUpperCase().indexOf(filter) &gt; &minus;1) {
-                                item[i].style.display = &rsquo;block&rsquo;;
-                                } else {
-                                item[i].style.display = &rsquo;none&rsquo;;
-                                }
-                                }
-                                
-                                (filter.length === 0) ? list.style.display = &rsquo;none&rsquo;: list.style.display = &rsquo;block&rsquo;;
-                            }
-                        </code>
-                    </pre>
+                <div class="container code__container">
+                    <h2 class="title">Code examples and projects</h2>
+                    <div class="code__box">
+                        <div class="code__item code__item--first">
+                            <h3 class="subtitle">Code example</h3>
+                            <pre class="code-example">
+                                <code>
+                                    function searchItem() {
+                                        const input = document.getElementById(&rsquo;inputSearch&rsquo;),
+                                        filter = input.value.toUpperCase(),
+                                        list = document.getElementById(&rsquo;listSearch&rsquo;),
+                                        item = list.getElementsByTagName(&rsquo;li&rsquo;);
+                                        
+                                        for (let i = 0; i &lt; item.length; i++) {
+                                        const a = item[i].getElementsByTagName(&rsquo;a&rsquo;)[0];
+                                        
+                                        if&nbsp;(a.innerHTML.toUpperCase().indexOf(filter) &gt; &minus;1) {
+                                        item[i].style.display = &rsquo;block&rsquo;;
+                                        } else {
+                                        item[i].style.display = &rsquo;none&rsquo;;
+                                        }
+                                        }
+                                        
+                                        (filter.length === 0) ? list.style.display = &rsquo;none&rsquo;: list.style.display = &rsquo;block&rsquo;;
+                                    }
+                                </code>
+                            </pre>
+                        </div>
+                        <div class="code__item code__item--second">
+                            <h3 class="subtitle">
+                                <a href="http://fe.it-academy.by/Projects/Kladova/index.html">Project 'Createx'</a>
+                            </h3>
+                            <img src="img/project-1.png" alt="Project 'Createx'" class="code__image">
+                        </div>
+                    </div>
                 </div>
             </section>
             <section class="languages">
