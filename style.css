@@ -74,9 +74,6 @@ html {
     color: var(--gray-800);
     margin: 0;
     overflow-x: hidden;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
   }
   
   h1,
@@ -111,6 +108,9 @@ html {
   }
   
 .site-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     overflow: hidden; /*чтобы обрезать контейнер по всем сторонам*/
   }
   
