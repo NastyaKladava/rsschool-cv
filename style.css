@@ -443,6 +443,7 @@ td {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 20px;
 }
 
 .footer__link {
@@ -478,6 +479,22 @@ td {
 
 .footer__item:nth-child(4) {
     background-image: url(img/gh.svg);
+}
+
+.footer__item:nth-child(5) {
+    background-image: url(img/arrow.png);
+}
+
+.footer__bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 30px;
+    width: 50px;
+    height: 30px;
 }
 
 /* Dec-element */
